@@ -1,0 +1,93 @@
+<!-- The sidebar -->
+  <div class="sidebar">
+    <img src="logoused.png" id="logo_style"><hr class="new"> 
+    <a href="index.html"><i class="fas fa-tachometer-alt i_space"></i>Dashboard</a><hr class="new">
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+
+  <!-- Page content -->
+  <div class="content">
+    ..
+  </div>
+
+
+  /* The side navigation menu */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 230px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  background-color: #4369D7;
+  
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 5px 15px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: lightgray;
+  font-size: 0.9em;
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+/* End Sidebar */
+
+ /* Local css */
+
+#logo_style
+{
+  width: 50%;
+  margin-left: 3em;
+  margin-top: 1em;
+}
+
+hr.new{
+  border-top: 1px solid lightgray;
+  width: 90%;
+}
+
+.i_space{
+  margin-right: 0.7em;
+}
+
+.dropdown-toggle
+{
+    padding-bottom: 5em;
+}
+
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
