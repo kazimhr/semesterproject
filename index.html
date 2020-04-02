@@ -32,29 +32,63 @@
 </head>
 <body>
 
-  <div class="">
-    <div class="row">
-        <div class="col-md-2 col-sm-2 p-l-0 p-r-0" id="sidebar">
-          <img src="logoused.png" id="logo_style">
-            <div class="list-group panel">
-                <a href="#menu1" class="list-group-item collapsed" data-toggle="collapse" data-parent="#sidebar" aria-expanded="false"><i class="fa fa-dashboard"></i> <span class="hidden-sm-down">Item 1</span> </a>
-                <div class="collapse" id="menu1">
-                    <a href="#" class="list-group-item" data-parent="#menu1">Subitem 2</a>
-                    <a href="#" class="list-group-item" data-parent="#menu1">Subitem 3</a>
-                </div>
-                <a href="#" class="list-group-item collapsed" data-parent="#sidebar"><i class="fa fa-film"></i> <span class="hidden-sm-down">Item 2</span></a>
-                <a href="#menu3" class="list-group-item collapsed" data-toggle="collapse" data-parent="#sidebar" aria-expanded="false"><i class="fa fa-book"></i> <span class="hidden-sm-down">Item 3 </span></a>
-                <div class="collapse" id="menu3">
-                    <a href="#" class="list-group-item" data-parent="#menu3">3.1</a>
-                    <a href="#" class="list-group-item" data-parent="#menu3">3.3</a>
-                </div>
-                <a href="#" class="list-group-item collapsed" data-parent="#sidebar"><i class="fa fa-heart"></i> <span class="hidden-sm-down">Item 4</span></a>
-                <a href="#" class="list-group-item collapsed" data-parent="#sidebar"><i class="fa fa-list"></i> <span class="hidden-sm-down">Item 5</span></a>
-            </div>
+  <div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <h3>KIMS</h3>
         </div>
-        
-    </div>
-</div>
+
+        <ul class="list-unstyled components">
+            <p>Storage is Important</p>
+            <li class="active">
+                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+                <ul class="collapse list-unstyled" id="homeSubmenu">
+                    <li>
+                        <a href="#" class="link">Home 1</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">Home 2</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">Home 3</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="link">About</a>
+            </li>
+            <li>
+                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle link">Pages</a>
+                <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <li>
+                        <a href="#" class="link">Page 1</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">Page 2</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">Page 3</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="link">Portfolio</a>
+            </li>
+            <li>
+                <a href="#" class="link">Contact</a>
+            </li>
+        </ul>
+
+        <ul class="list-unstyled CTAs">
+            <li>
+                <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
+            </li>
+            <li>
+                <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
+            </li>
+        </ul>
+    </nav>
 
 
   
