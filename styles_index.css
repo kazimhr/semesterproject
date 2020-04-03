@@ -184,11 +184,17 @@ a.article:hover {
         position: relative;
             left: 1.6em;
     }
-
+    #storage_slogan{
+        display: none;
+    }
     .sidebar_items_on_mob{
         display: block;
         text-align: center;
-        font-size: 0.2em;
+        font-size: 0.6em;
+    }
+    .sidebar_icons{
+        position: relative;
+        left: 35%;
     }
 
 }
@@ -220,7 +226,7 @@ a.article:hover {
 @media (max-width: 600px) {
 
     #custom_wrapper{
-        width: 79%;
+        width: 85%;
         margin-left: auto;
     }
 }
