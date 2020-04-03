@@ -67,7 +67,7 @@ a:focus {
 }
 
 #sidebar {
-    width: 15%;
+    width: 230px;
     position: fixed;
     top: 0;
     left: 0;
