@@ -207,6 +207,7 @@ a.article:hover {
 
     .custom_icon{
         text-align: center;
+        /* border: 1px solid blue; */
     }
     .custom_item_sidebar{
         font-size: 0.7em;
