@@ -213,5 +213,8 @@ a.article:hover {
     #custom_wrapper{
         width: 75%;
     }
+    #KIMS{
+        font-size: 1em;
+    }
 
 }
