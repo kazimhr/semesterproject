@@ -168,12 +168,6 @@ a.article:hover {
     #sidebar.active {
         margin-left: 0;
     }
-    #content {
-        width: 80%;
-    }
-    #content.active {
-        width: calc(100% - 250px);
-    }
     #sidebarCollapse span {
         display: none;
     }
@@ -186,24 +180,7 @@ a.article:hover {
     #storage_slogan{
         display: none;
     }
-    /* .sidebar_items_on_mob{
-        display: block;
-        text-align: center;
-        font-size: 0.3em;
-    }
-    .sidebar_icons{
-        position: relative;
-        left: 35%;
-    } */
-
-    .mov{
-        font-size: 0.4em;
-        text-align: center;
-    }
-    #custom_wrapper{
-        width: 75%;
-        margin-left: auto;
-    }
+    
 
 }
 
@@ -240,6 +217,9 @@ a.article:hover {
         font-size: 0.7em;
         text-align: center;
         border: 1px blue solid;
+    }
+    #custom_wrapper{
+        width: 75%;
     }
 
 }
