@@ -180,14 +180,13 @@ a.article:hover {
     .sidebar-header{
       display: none;
     }
-    .sidebar_icons{
-        position: relative;
-            left: 1.6em;
-    }
+     .sidebar_icons{
+       margin-left: 1em; 
+    } 
     #storage_slogan{
         display: none;
     }
-    .sidebar_items_on_mob{
+    /* .sidebar_items_on_mob{
         display: block;
         text-align: center;
         font-size: 0.3em;
@@ -195,6 +194,11 @@ a.article:hover {
     .sidebar_icons{
         position: relative;
         left: 35%;
+    } */
+
+    .mov{
+        font-size: 0.8em;
+        text-align: center;
     }
 
 }
@@ -221,6 +225,12 @@ a.article:hover {
     border: 2px blue solid;
     margin-left: auto;
     width: 85%;
+}
+
+.mov{
+   position: relative;
+        right: 0.5em;
+     
 }
 
 @media (max-width: 800px) {
