@@ -203,6 +203,10 @@ a.article:hover {
     width: 85%;
 }
 
+.sublink{
+    text-align: center;
+}
+
 @media (max-width: 800px) {
 
     .custom_icon{
