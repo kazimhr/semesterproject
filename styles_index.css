@@ -188,7 +188,7 @@ a.article:hover {
     .sidebar_items_on_mob{
         display: block;
         text-align: center;
-        font-size: smaller;
+        font-size: 1em;
     }
 
 }
