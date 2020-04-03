@@ -174,14 +174,12 @@ a.article:hover {
     .sidebar-header{
       display: none;
     }
-     .sidebar_icons{
+    .sidebar_icons{
        margin-left: 1em; 
     } 
     #storage_slogan{
         display: none;
     }
-    
-
 }
 
 
@@ -196,8 +194,6 @@ a.article:hover {
     top: 0.5em;
 }
 
-.sidebar_icons{
-}
 
 /* local sidebar settings end */
 
