@@ -207,12 +207,10 @@ a.article:hover {
 
     .custom_icon{
         text-align: center;
-        border: 1px blue solid;
     }
     .custom_item_sidebar{
         font-size: 0.7em;
         text-align: center;
-        border: 1px blue solid;
     }
     #custom_wrapper{
         width: 75%;
