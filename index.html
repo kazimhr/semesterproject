@@ -8,6 +8,9 @@
       type="image/png" 
       href="https://img.pngio.com/storage-png-15-clip-arts-for-free-download-on-een-2019-data-storage-png-557_376.png">
 
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!--CSS-->
     <link rel="stylesheet" type="text/css" href="styles_index.css">
 
@@ -32,66 +35,82 @@
 </head>
 <body>
 
-  <div class="wrapper">
     <!-- Sidebar  -->
     <nav id="sidebar">
         <div class="sidebar-header">
-            <h3>KIMS</h3>
+           <img src="logo-removebg-preview1.png" style="width: 30%;"><span id="KIMS">KIMS</span>
         </div>
 
         <ul class="list-unstyled components">
-            <p>Storage is Important</p>
-            <li class="active">
-                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+            <p>Storage is Important.</p>
+            <li  class="active">
+                <a href="index.html" class="link"><i class="fas fa-chart-pie sidebar_icons"></i><span class="sidebar_items_on_mob">Dashboard</span></a>
+            </li>
+            <li>
+                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle link"><i class="fas fa-warehouse sidebar_icons"></i><span class="sidebar_items_on_mob">Inventory</span></a>
                 <ul class="collapse list-unstyled" id="homeSubmenu">
                     <li>
-                        <a href="#" class="link">Home 1</a>
+                        <a href="newitem.html" class="link">New Item</a>
                     </li>
                     <li>
-                        <a href="#" class="link">Home 2</a>
+                        <a href="addstorage.html" class="link">Add</a>
                     </li>
                     <li>
-                        <a href="#" class="link">Home 3</a>
+                        <a href="removestorage.html" class="link">Remove</a>
                     </li>
                 </ul>
             </li>
             <li>
-                <a href="#" class="link">About</a>
-            </li>
-            <li>
-                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle link">Pages</a>
-                <ul class="collapse list-unstyled" id="pageSubmenu">
+                <a href="#salespersonSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle link"><i class="fas fa-universal-access sidebar_icons"></i><span class="sidebar_items_on_mob">Salesperson</span></a>
+                <ul class="collapse list-unstyled" id="salespersonSubmenu">
                     <li>
-                        <a href="#" class="link">Page 1</a>
+                        <a href="#" class="link">New</a>
                     </li>
                     <li>
-                        <a href="#" class="link">Page 2</a>
-                    </li>
-                    <li>
-                        <a href="#" class="link">Page 3</a>
+                        <a href="#" class="link">Current</a>
                     </li>
                 </ul>
             </li>
             <li>
-                <a href="#" class="link">Portfolio</a>
+                <a href="#retailersSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle link"><i class="fas fa-truck-pickup sidebar_icons"></i><span class="sidebar_items_on_mob">Retailers</span></a>
+                <ul class="collapse list-unstyled" id="retailersSubmenu">
+                    <li>
+                        <a href="#" class="link">New</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">Current</a>
+                    </li>
+                </ul>
             </li>
             <li>
-                <a href="#" class="link">Contact</a>
+                <a href="#" class="link"><i class="fas fa-shopping-cart sidebar_icons"></i><span class="sidebar_items_on_mob">Purchase</span></a>
+            </li>
+            <li>
+                <a href="#" class="link"><i class="fas fa-money-bill sidebar_icons"></i><span class="sidebar_items_on_mob">Accounts</span></a>
+            </li>
+            <li>
+                <a href="#" class="link"><i class="fas fa-receipt sidebar_icons"></i><span class="sidebar_items_on_mob">Invoices</span></a>
+            </li>
+            <li>
+                <a href="#" class="link"><i class="fas fa-question sidebar_icons"></i><span class="sidebar_items_on_mob">Help</span></a>
             </li>
         </ul>
 
-        <ul class="list-unstyled CTAs">
+        <!-- <ul class="list-unstyled CTAs">
             <li>
                 <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
             </li>
             <li>
                 <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
             </li>
-        </ul>
+        </ul> -->
     </nav>
 
-
+   <!-- END OF SIDEBAR -->
   
+        <div id="custom_wrapper">
+                <p>KAZA</p>
+        </div>
 
 
 </body>

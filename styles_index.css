@@ -5,7 +5,7 @@ body {
     background: #fafafa;
 }
 
-p {
+#sidebar p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.1em;
     font-weight: 300;
@@ -13,7 +13,7 @@ p {
     color: #999;
 }
 
-a{
+#sidebar a{
     color: inherit;
     text-decoration: none;
     transition: all 0.3s;
@@ -67,7 +67,7 @@ a:focus {
 }
 
 #sidebar {
-    width: 250px;
+    width: 15%;
     position: fixed;
     top: 0;
     left: 0;
@@ -160,10 +160,10 @@ a.article:hover {
     MEDIAQUERIES
 ----------------------------------------------------- */
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     #sidebar {
         margin-left: 0px;
-        width: 20%;
+        width: 21%;
     }
     #sidebar.active {
         margin-left: 0;
@@ -180,7 +180,44 @@ a.article:hover {
     .sidebar-header{
       display: none;
     }
+    .sidebar_icons{
+        position: relative;
+            left: 1.6em;
+    }
+
+    .sidebar_items_on_mob{
+        display: block;
+        text-align: center;
+    }
+
 }
 
 /* Sidebar auto settings end */
 
+#KIMS{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left:3.2em;
+    top: 0.5em;
+}
+
+.sidebar_icons{
+    margin-right:0.7em ;
+}
+
+/* local sidebar settings end */
+
+#custom_wrapper{
+    border: 2px blue solid;
+    margin-left: auto;
+    width: 85%;
+}
+
+@media (max-width: 600px) {
+
+    #custom_wrapper{
+        width: 79%;
+        margin-left: auto;
+    }
+}
