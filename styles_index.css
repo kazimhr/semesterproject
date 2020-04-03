@@ -163,7 +163,7 @@ a.article:hover {
 @media (max-width: 600px) {
     #sidebar {
         margin-left: 0px;
-        width: 15%;
+        width: 20%;
     }
     #sidebar.active {
         margin-left: 0;
