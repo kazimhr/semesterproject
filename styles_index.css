@@ -200,6 +200,10 @@ a.article:hover {
         font-size: 0.4em;
         text-align: center;
     }
+    #custom_wrapper{
+        width: 85%;
+        margin-left: auto;
+    }
 
 }
 
@@ -216,7 +220,6 @@ a.article:hover {
 }
 
 .sidebar_icons{
-    margin-right:0.7em ;
 }
 
 /* local sidebar settings end */
@@ -227,16 +230,14 @@ a.article:hover {
     width: 85%;
 }
 
-.mov{
-   position: relative;
-        right: 0.5em;
-     
-}
-
 @media (max-width: 800px) {
 
-    #custom_wrapper{
-        width: 85%;
-        margin-left: auto;
+    .custom_icon{
+        text-align: center;
     }
+    .custom_item_sidebar{
+        font-size: 0.7em;
+        text-align: center;
+    }
+
 }
