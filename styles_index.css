@@ -172,7 +172,7 @@ a.article:hover {
         display: none;
     }
     .sidebar-header{
-      display: none;
+      
     }
     .sidebar_icons{
        margin-left: 1em; 
@@ -187,11 +187,8 @@ a.article:hover {
 /* Sidebar auto settings end */
 
 #KIMS{
-    font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    left:3.2em;
-    top: 0.5em;
+    font-size: 2em;
 }
 
 
@@ -201,10 +198,6 @@ a.article:hover {
     border: 2px blue solid;
     margin-left: auto;
     width: 85%;
-}
-
-.sublink{
-    text-align: center;
 }
 
 @media (max-width: 800px) {
