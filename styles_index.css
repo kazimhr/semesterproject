@@ -160,7 +160,7 @@ a.article:hover {
     MEDIAQUERIES
 ----------------------------------------------------- */
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     #sidebar {
         margin-left: 0px;
         width: 15%;
@@ -223,7 +223,7 @@ a.article:hover {
     width: 85%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
 
     #custom_wrapper{
         width: 85%;
