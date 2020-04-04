@@ -197,7 +197,7 @@ a.article:hover {
 #custom_wrapper{
     border: 2px blue solid;
     margin-left: auto;
-    width: 85%;
+    width: calc(100% - 230px);
 }
 
 #logo_img{
