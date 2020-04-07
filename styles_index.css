@@ -192,7 +192,6 @@ a.article:hover {
 /* local sidebar settings end */
 
 #custom_wrapper{
-    border: 2px blue solid;
     margin-left: auto;
     width: calc(100% - 230px);
 }
@@ -296,15 +295,16 @@ a.article:hover {
 .nav_badge{
     color: white;
     position: absolute;
-        bottom: 40px;
-        right: 290px;
+        bottom: 10px;
+        right: 0px;
+    
 }
 
 .nav_badge1{
     color: white;
     position: absolute;
-        bottom: 40px;
-        right: 240px;
+        bottom:10px;
+        right: 0px;
     
     
 }
@@ -317,8 +317,73 @@ a.article:hover {
     bottom: 20px;  
   }
 
-  .profile_name{
-    position: absolute;
-        right: 100px;
-        top: 23px;
-  }
+.profile_name{
+    position: relative;
+    left: 25px;
+} 
+
+#img_nav{
+    width:10%;
+    border-radius: 50%;
+    position: relative;
+     left: 30px;
+}
+
+.search_sm_device{
+    display: none;
+}
+
+@media (max-width: 900px) {
+
+        .searchbar{
+            display: none;
+        }
+
+        .search_sm_device{
+            display: inline;
+            
+        }
+
+           .search_input{
+            color: white;
+            border: 0;
+            outline: 0;
+            background: none;
+            width: 100%;
+            caret-color:transparent;
+            line-height: 40px;
+            }
+
+            ..searchbar:hover{
+                
+            }
+        
+            .searchbar:hover > .search_input{
+            padding: 0 0;
+            width: 100%;
+            caret-color:white;
+            }
+        
+            .searchbar:hover > .search_icon{
+            background: white;
+            color: #7386D5;
+            }
+        
+            .search_icon{
+            height: 40px;
+            width: 40px;
+            float: right;
+            border-radius: 50%;
+            color:white;
+            text-decoration:none;
+            position: relative;
+            bottom: 40px;
+            left: 15px;
+            }
+        
+            .search_input::placeholder{
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+}

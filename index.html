@@ -170,16 +170,58 @@
                 </form>
 
                 <div class="nav_side_item">
-                    <a href=""><i class="fas fa-envelope"></i></a><span class="badge badge-danger nav_badge">4</span>
+                    <span class="dropdown">
+                        <button type="button" data-toggle="dropdown" style="background: transparent;border: none;">
+                            <i class="fas fa-envelope"></i>
+                          </button>
+                          <span class="badge badge-danger nav_badge">4</span>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Link 1</a>
+                            <a class="dropdown-item" href="#">Link 2</a>
+                            <a class="dropdown-item" href="#">Link 3</a>
+                          </div>
+                    </span>
                     <span style="margin-right: 30px;"></span>
-                    <a href=""><i class="fas fa-bell"></i></a><span class="badge badge-danger nav_badge1">4</span>
-                    <span class="vl"></span>
-                    <a href=""><span class="profile_name">Kazim Hyder</span>
-                        <img src="https://www.tobiaskey.com/wp-content/gallery/business-headshots/IMG_0126.jpg" alt="afas" class="" style="width:10%;border-radius: 50%;position: relative;left: 160px;"></a>
                     
+                    <span class="dropdown">
+                        <button type="button" data-toggle="dropdown" style="background: transparent;border: none;">
+                            <i class="fas fa-bell"></i></a>
+                          </button>
+                          <span class="badge badge-danger nav_badge1">4</span>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Link 1</a>
+                            <a class="dropdown-item" href="#">Link 2</a>
+                            <a class="dropdown-item" href="#">Link 3</a>
+                          </div>
+                    </span>
+
+                    <span class="vl"></span>
+
+                    <span class="dropdown">
+                            <button class="profile_name" type="button" data-toggle="dropdown" style="background: transparent;border: none;">
+                                Kazim Hyder
+                              </button>
+                              <img src="https://www.tobiaskey.com/wp-content/gallery/business-headshots/IMG_0126.jpg" alt="afas" id="img_nav">
+                              <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Link 1</a>
+                                <a class="dropdown-item" href="#">Link 2</a>
+                                <a class="dropdown-item" href="#">Link 3</a>
+                              </div>
+                    </span>    
                 </div>
                 
               </nav>
+
+              <!-- Search bar different design on smaller screen. -->
+              <form class="form-inline" action="/action_page.php">
+                <div style="width: 80%;margin: auto;"> 
+                     <div class="searchbar search_sm_device">
+                        <input class="search_input" type="text" name="" placeholder="Search">
+                        <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>  
+             </form>
+             
         </div>
 
 
