@@ -246,9 +246,9 @@ a.article:hover {
 
     .searchbar:hover > .search_input{
     padding: 0 10px;
-    width: 450px;
+    width: 250px;
     caret-color:white;
-    transition: width 0.4s linear;
+    transition: width 0.4s linear 0s;
     }
 
     .searchbar:hover > .search_icon{
@@ -286,5 +286,39 @@ a.article:hover {
 
 .navbar {
     min-height: 70px;
+}
+
+.nav_side_item{
+    width:300px;
+    margin-left: auto;
+}
+
+.nav_badge{
+    color: white;
+    position: absolute;
+        bottom: 40px;
+        right: 290px;
+}
+
+.nav_badge1{
+    color: white;
+    position: absolute;
+        bottom: 40px;
+        right: 240px;
+    
+    
+}
+
+.vl {
+    border-left: 1px solid black;
+    height: 40px;
+    position: absolute;
+    right: 200px;
+    bottom: 20px;  
   }
 
+  .profile_name{
+    position: absolute;
+        right: 100px;
+        top: 23px;
+  }
